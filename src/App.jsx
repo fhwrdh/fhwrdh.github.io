@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      photos.fhwrdh.net
+      photo.fhwrdh.net
     </div>
   )
 }
