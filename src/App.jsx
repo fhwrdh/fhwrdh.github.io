@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import { ChakraProvider } from "@chakra-ui/react";
+import { RouterProvider } from "react-router-dom";
+import theme from "./theme";
+import router from "./router";
 
 function App() {
-
   return (
-    <div>
-      photo.fhwrdh.net
-    </div>
-  )
+    <ChakraProvider theme={theme}>
+      <RouterProvider router={router} />
+    </ChakraProvider>
+  );
 }
 
-export default App
+export default App;
