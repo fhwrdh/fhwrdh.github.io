@@ -1,23 +1,7 @@
-import { Box, Heading, Image, Text } from "@chakra-ui/react";
-
-const WorkHeading = ({ children }) => (
-  <Box minW={{ base: "100%", md: "25%" }}>{children}</Box>
-);
-
-const WorkImage = ({ src }) => {
-  return (
-    <Box maxW="1000px" my={4} mx={0}>
-      <Image src={src} width="100%" />
-    </Box>
-  );
-};
-
-//
-//
-//
-//
-//
-//
+import * as R from "ramda";
+import { Box, Heading, Text } from "@chakra-ui/react";
+import { ftprtuImages } from "../images";
+import { WorkImage, WorkHeading } from "./common";
 
 export default function FirstTheyPassed() {
   return (
@@ -37,10 +21,12 @@ export default function FirstTheyPassed() {
         <Text>Spring 2024</Text>
       </WorkHeading>
       <Box>
-        <WorkImage src="/work/DSCF7944.jpg" />
-        <WorkImage src="/work/DSCF7930.jpg" />
-        <WorkImage src="/work/DSCF7931.jpg" />
-        <WorkImage src="/work/DSCF7961.jpg" />
+        {R.map(
+          ({ src }) => (
+            <WorkImage key={src} src={src} />
+          ),
+          ftprtuImages,
+        )}
       </Box>
     </Box>
   );
