@@ -43,23 +43,23 @@ const home = [
 
 const otr = [
   { src: "DSCF0409.jpg" },
-  { src: "DSCF0419.jpg" },
   { src: "DSCF0456.jpg" },
+  { src: "DSCF0419.jpg" },
+  { src: "DSCF5465.jpg" },
   { src: "DSCF0614.jpg" },
   { src: "DSCF0621.jpg" },
+  { src: "DSCF1627.jpg" },
   { src: "DSCF1068-2.jpg" },
   { src: "DSCF1077.jpg" },
   { src: "DSCF1090.jpg" },
   { src: "DSCF1125.jpg" },
   { src: "DSCF1616.jpg" },
-  { src: "DSCF1627.jpg" },
-  { src: "DSCF5465.jpg" },
   { src: "DSCF5832.jpg" },
   { src: "DSCF6394.jpg" },
-  { src: "DSCF6820.jpg" },
   { src: "DSCF7831.jpg" },
-  { src: "DSCF8433.jpg" },
+  { src: "DSCF6820.jpg" },
   { src: "DSCF8853.jpg" },
+  { src: "DSCF8433.jpg" },
 ];
 
 const sots = [
