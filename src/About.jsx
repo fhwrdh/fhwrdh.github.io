@@ -7,7 +7,7 @@ export default function About() {
         <Text mb={4}>
           I am a film photographer based near Seattle, Washington.
         </Text>
-        <Text mb={4}>To contact me, email photo@fhwrdh.net</Text>
+        <Text mb={4}>photo@fhwrdh.net</Text>
       </Box>
       <Image src="/fhwrdh.png" width="100%" maxWidth="300px" />
     </Box>

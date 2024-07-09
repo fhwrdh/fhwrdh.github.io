@@ -10,7 +10,13 @@ export const MasonryImg = ({ index, data }) => {
 
 export const Heading = ({ children }) => {
   return (
-    <CHeading as="h3" size="sm" mb={{ base: 2, md: 0 }} mt={{ base: 0, md: 4 }}>
+    <CHeading
+      as="h3"
+      size="sm"
+      mb={{ base: 2, md: 0 }}
+      mt={{ base: 0, md: 4 }}
+      fontWeight={400}
+    >
       {children}
     </CHeading>
   );

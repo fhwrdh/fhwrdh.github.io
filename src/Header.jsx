@@ -6,11 +6,16 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
 
 export default function SiteHeader() {
+  const title = useBreakpointValue({
+    base: "fhwrdh",
+    sm: "Franklin Henderson",
+  });
   return (
     <Flex
       justifyContent="space-between"
@@ -20,7 +25,7 @@ export default function SiteHeader() {
     >
       <NavLink to="/" as="h3" size="lg">
         <Heading as="h1" size="lg" fontWeight={300}>
-          Franklin Henderson
+          {title}
         </Heading>
       </NavLink>
       <Flex gap={3}>
