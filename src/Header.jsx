@@ -1,5 +1,4 @@
 import {
-  Box,
   Flex,
   Heading,
   Link,
@@ -13,27 +12,35 @@ import { FaInstagram } from "react-icons/fa";
 
 export default function SiteHeader() {
   return (
-    <Flex justifyContent="space-between" mb={4} alignItems={"baseline"}>
+    <Flex
+      justifyContent="space-between"
+      mb={4}
+      alignItems={"baseline"}
+      fontWeight={300}
+    >
       <NavLink to="/" as="h3" size="lg">
-        <Heading as="h1" size="lg">
+        <Heading as="h1" size="lg" fontWeight={300}>
           Franklin Henderson
         </Heading>
       </NavLink>
       <Flex gap={3}>
         <Menu>
-          <MenuButton>Work</MenuButton>
+          <MenuButton fontWeight={300}>Work</MenuButton>
           <MenuList>
             <MenuItem as={NavLink} to="/work/ftprtu">
               FTPRTU
             </MenuItem>
-            <MenuItem as={NavLink} to="/work/2">
-              222
+            <MenuItem as={NavLink} to="/work/soundofthesea">
+              Sound of the Sea
+            </MenuItem>
+            <MenuItem as={NavLink} to="/work/ontheroad">
+              On the Road
             </MenuItem>
           </MenuList>
         </Menu>
         <NavLink to="/about">About</NavLink>
         <Link href="https://www.instagram.com/fhwrdh" display="block" pt={1}>
-          <FaInstagram />
+          <FaInstagram fontWeight={300} />
         </Link>
       </Flex>
     </Flex>

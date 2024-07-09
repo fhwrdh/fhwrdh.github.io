@@ -6,7 +6,10 @@ import {
 
 import Layout from "./Layout";
 import Home from "./Home";
+import About from "./About";
 import FirstTheyPassed from "./work/FirstTheyPassed";
+import OnTheRoad from "./work/OnTheRoad";
+import SoundOfTheSea from "./work/SoundOfTheSea";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -14,9 +17,10 @@ const router = createHashRouter(
       <Route index element={<Home />} />
       <Route path="work">
         <Route path="ftprtu" element={<FirstTheyPassed />} />
-        <Route path="2" element={<div>222</div>} />
+        <Route path="ontheroad" element={<OnTheRoad />} />
+        <Route path="soundofthesea" element={<SoundOfTheSea />} />
       </Route>
-      <Route path="about" element={<div>abOOOut</div>} />
+      <Route path="about" element={<About />} />
     </Route>,
   ),
 );

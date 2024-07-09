@@ -13,7 +13,7 @@ const colors = {
   },
 };
 
-const b = ` 'Roboto', sans-serif`;
+const b = `'Lato', 'Roboto', sans-serif`;
 const fonts = {
   heading: b,
   body: b,
