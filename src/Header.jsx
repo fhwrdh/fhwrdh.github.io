@@ -19,12 +19,12 @@ export default function SiteHeader() {
   return (
     <Flex
       justifyContent="space-between"
-      mb={4}
+      mb={{ base: 4, md: 8 }}
       alignItems={"baseline"}
       fontWeight={300}
     >
-      <NavLink to="/" as="h3" size="lg">
-        <Heading as="h1" size="lg" fontWeight={300}>
+      <NavLink to="/">
+        <Heading size="md" fontWeight={300}>
           {title}
         </Heading>
       </NavLink>

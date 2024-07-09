@@ -14,8 +14,8 @@ export const Heading = ({ children }) => {
       as="h3"
       size="sm"
       mb={{ base: 2, md: 0 }}
-      mt={{ base: 0, md: 4 }}
-      fontWeight={400}
+      mt={{ base: 0 }}
+      fontWeight={300}
     >
       {children}
     </CHeading>
