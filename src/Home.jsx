@@ -18,8 +18,8 @@ const Home = () => {
         render={MasonryImg}
         // Adds 8px of space between the grid cells
         columnGutter={8}
-        // Sets the minimum column width to 172px
-        columnWidth={172}
+        // Sets the minimum column width
+        columnWidth={333}
         // Pre-renders 5 windows worth of content
         overscanBy={5}
       />
