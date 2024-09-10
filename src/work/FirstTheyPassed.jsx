@@ -1,5 +1,4 @@
-import * as R from "ramda";
-import { Box, Text } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import { ftprtuImages } from "../images";
 import { WorkHeading, WorkContainer, WorkMasonry } from "./common";
 import { Heading } from "../common";
