@@ -1,9 +1,14 @@
+import { Link } from "react-router-dom";
 import { Box, Heading as CHeading, Image } from "@chakra-ui/react";
+import { getId } from "./images";
 
 export const MasonryImg = ({ index, data }) => {
+  const id = getId(data.src);
   return (
     <Box key={index}>
-      <Image src={data.src} width="100%" alt={`${data.src}`} />
+      <Link to={id}>
+        <Image src={data.src} width="100%" alt={`${data.src}`} />
+      </Link>
     </Box>
   );
 };

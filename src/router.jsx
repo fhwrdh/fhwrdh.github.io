@@ -18,7 +18,7 @@ const router = createHashRouter(
       <Route path="work">
         <Route path="ftprtu" element={<FirstTheyPassed />} />
         <Route path="ontheroad" element={<OnTheRoad />} />
-        <Route path="soundofthesea" element={<SoundOfTheSea />} />
+        <Route path="soundofthesea/:id?" element={<SoundOfTheSea />} />
       </Route>
       <Route path="about" element={<About />} />
     </Route>,

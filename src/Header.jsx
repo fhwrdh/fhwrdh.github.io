@@ -9,7 +9,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "./Icons";
 
 export default function SiteHeader() {
   const title = useBreakpointValue({

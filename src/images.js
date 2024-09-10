@@ -1,7 +1,10 @@
 import * as R from "ramda";
 
 const prefix = "/work/";
+
 const addPrefix = R.map((i) => R.assocPath(["src"], `${prefix}${i.src}`, i));
+
+export const getId = R.pipe(R.replace(prefix, ""), R.split("."), R.head);
 
 export const ftprtu = [
   { src: "1_DSCF7931.jpg" },
@@ -63,9 +66,9 @@ const otr = [
 ];
 
 const sots = [
+  { src: "DSCF2788.jpg" },
   { src: "DSCF2648.jpg" },
   { src: "DSCF2743.jpg" },
-  { src: "DSCF2788.jpg" },
   { src: "DSCF3050-2.jpg" },
   { src: "DSCF3056-2.jpg" },
   { src: "DSCF3825.jpg" },
