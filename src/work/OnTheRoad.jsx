@@ -9,14 +9,7 @@ export default function OnTheRoad() {
   return (
     <WorkContainer>
       <WorkHeading>
-        <Heading
-          as="h3"
-          size="sm"
-          mb={{ base: 2, md: 0 }}
-          mt={{ base: 0, md: 4 }}
-        >
-          On The Road
-        </Heading>
+        <Heading>On The Road</Heading>
         {id && (
           <Carousel items={otrImages} id={id} setRoot="/work/ontheroad/" />
         )}

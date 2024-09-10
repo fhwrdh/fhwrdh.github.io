@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import { FaChevronLeft, FaChevronRight } from "./Icons";
 import {
   Box,
+  IconButton,
   Image,
   Link,
   Modal,
@@ -10,6 +12,7 @@ import {
   ModalHeader,
   ModalBody,
   ModalCloseButton,
+  Icon,
 } from "@chakra-ui/react";
 import { useHotkeys } from "react-hotkeys-hook";
 import { getId } from "../images";
@@ -38,7 +41,7 @@ export const Carousel = ({ items, id, setRoot }) => {
   return (
     <div>
       <Modal
-        size="full"
+        size={{ base: "full", md: "6xl" }}
         isCentered
         isOpen={true}
         closeOnOverlayClick={false}
@@ -48,36 +51,35 @@ export const Carousel = ({ items, id, setRoot }) => {
       >
         <ModalOverlay
           bg="blackAlpha.50"
-          backdropFilter="blur(10px) hue-rotate(90deg)"
+          backdropFilter="blur(20px) hue-rotate(90deg)"
         />
         <ModalContent>
-          <Box position="relative" align="center">
-            <ModalHeader>{item.title || ""}</ModalHeader>
-            <ModalCloseButton />
-            <ModalBody>
-              <Image src={item.src} height="100%" maxH="90vh" />
-              <Link
-                pos="absolute"
-                top="50%"
-                left="1%"
-                as={NavLink}
-                to={`${setRoot}${prevId}`}
-                display="block"
-              >
-                <FaChevronLeft fontWeight={300} size={24} />
-              </Link>
-              <Link
-                pos="absolute"
-                top="50%"
-                right="1%"
-                as={NavLink}
-                to={`${setRoot}${nextId}`}
-                display="block"
-              >
-                <FaChevronRight fontWeight={300} size={24} />
-              </Link>
-            </ModalBody>
-          </Box>
+          <ModalHeader>{item.title || " "}</ModalHeader>
+          <ModalCloseButton color={"gray"} />
+
+          <ModalBody>
+            <Box position="relative" align="center">
+              <Image src={item.src} mb={2} />
+              <IconButton
+                mx={1}
+                size="xs"
+                aria-label="previous"
+                icon={<FaChevronLeft color="gray" />}
+                onClick={() => {
+                  navigate(`${setRoot}${prevId}`);
+                }}
+              />
+              <IconButton
+                mx={1}
+                size="xs"
+                aria-label="next"
+                icon={<FaChevronRight color="gray" />}
+                onClick={() => {
+                  navigate(`${setRoot}${nextId}`);
+                }}
+              />
+            </Box>
+          </ModalBody>
         </ModalContent>
       </Modal>
     </div>

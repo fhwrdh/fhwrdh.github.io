@@ -11,15 +11,10 @@ export default function FirstTheyPassed() {
   return (
     <WorkContainer>
       <WorkHeading>
-        <Heading
-          as="h3"
-          size="sm"
-          mb={{ base: 2, md: 0 }}
-          mt={{ base: 0, md: 4 }}
-        >
+        <Heading as="h3" size="sm">
           First They Passed Right Through Us
+          <Text>Spring 2024</Text>
         </Heading>
-        <Text>Spring 2024</Text>
         {id && (
           <Carousel items={ftprtuImages} id={id} setRoot="/work/ftprtu/" />
         )}

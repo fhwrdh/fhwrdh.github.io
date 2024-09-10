@@ -33,9 +33,9 @@ export const WorkMasonry = (props) => {
       // Adds 8px of space between the grid cells
       columnGutter={8}
       // Sets the minimum column width
-      columnWidth={333}
+      columnWidth={300}
       // Pre-renders 5 windows worth of content
-      overscanBy={5}
+      overscanBy={2}
     />
   );
 };

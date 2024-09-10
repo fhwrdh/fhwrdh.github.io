@@ -20,6 +20,12 @@ export default function SiteHeader() {
     <Flex
       justifyContent="space-between"
       mb={{ base: 4, md: 8 }}
+      pt={{ base: 2, md: 4 }}
+      pb={{ base: 2, md: 4 }}
+      position="sticky"
+      top={0}
+      zIndex={1000}
+      background={"white"}
       alignItems={"baseline"}
       fontWeight={300}
     >
