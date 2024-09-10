@@ -13,11 +13,11 @@ import SoundOfTheSea from "./work/SoundOfTheSea";
 
 const router = createHashRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layout />}>
+    <Route path="/:id?" element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="work">
-        <Route path="ftprtu" element={<FirstTheyPassed />} />
-        <Route path="ontheroad" element={<OnTheRoad />} />
+        <Route path="ftprtu/:id?" element={<FirstTheyPassed />} />
+        <Route path="ontheroad/:id?" element={<OnTheRoad />} />
         <Route path="soundofthesea/:id?" element={<SoundOfTheSea />} />
       </Route>
       <Route path="about" element={<About />} />

@@ -1,21 +1,15 @@
-import { Box, Image } from "@chakra-ui/react";
-import { Masonry } from "masonic";
+import { Box } from "@chakra-ui/react";
 import { homeImages } from "./images";
-import { MasonryImg } from "./common";
+import { useParams } from "react-router-dom";
+import { WorkMasonry } from "./work/common";
+import { Carousel } from "./components/Carousel";
 
 const Home = () => {
+  const { id } = useParams();
   return (
     <Box w="full">
-      <Masonry
-        items={homeImages}
-        render={MasonryImg}
-        // Adds 8px of space between the grid cells
-        columnGutter={8}
-        // Sets the minimum column width
-        columnWidth={333}
-        // Pre-renders 5 windows worth of content
-        overscanBy={5}
-      />
+      <WorkMasonry items={homeImages} />
+      {id && <Carousel items={homeImages} id={id} setRoot="/" />}
     </Box>
   );
 };

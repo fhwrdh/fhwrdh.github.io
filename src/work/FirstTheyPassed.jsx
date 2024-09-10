@@ -1,14 +1,15 @@
 import * as R from "ramda";
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { ftprtuImages } from "../images";
-import { WorkImage, WorkHeading } from "./common";
+import { WorkHeading, WorkContainer, WorkMasonry } from "./common";
+import { Heading } from "../common";
+import { useParams } from "react-router-dom";
+import { Carousel } from "../components/Carousel";
 
 export default function FirstTheyPassed() {
+  const { id } = useParams();
   return (
-    <Box
-      display={{ base: "block", md: "flex" }}
-      justifyContent={"space-between"}
-    >
+    <WorkContainer>
       <WorkHeading>
         <Heading
           as="h3"
@@ -19,15 +20,11 @@ export default function FirstTheyPassed() {
           First They Passed Right Through Us
         </Heading>
         <Text>Spring 2024</Text>
-      </WorkHeading>
-      <Box>
-        {R.map(
-          ({ src }) => (
-            <WorkImage key={src} src={src} />
-          ),
-          ftprtuImages,
+        {id && (
+          <Carousel items={ftprtuImages} id={id} setRoot="/work/ftprtu/" />
         )}
-      </Box>
-    </Box>
+      </WorkHeading>
+      <WorkMasonry items={ftprtuImages} />
+    </WorkContainer>
   );
 }
