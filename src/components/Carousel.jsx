@@ -12,10 +12,19 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 import { useHotkeys } from "react-hotkeys-hook";
-import { getId, findIndex } from "../images";
+import { findIndex } from "../images";
 
-const isLast = (index, items) => index === items.length - 1;
-const isFirst = (index) => index === 0;
+const CarouselHeader = ({ item }) => {
+  return (
+    <ModalHeader fontWeight={300}>
+      <Box>{item.display.title}</Box>
+      {item?.display?.geotime && (
+        <Box fontSize={"xs"}>{item.display.geotime}</Box>
+      )}
+      {item?.display?.exif && <Box fontSize={"xs"}>{item.display.exif}</Box>}
+    </ModalHeader>
+  );
+};
 
 export const useCarousel = (items, setRoot) => {
   const { id } = useParams();
@@ -24,6 +33,9 @@ export const useCarousel = (items, setRoot) => {
   if (itemIndex < 0) return null;
   return <Carousel items={items} id={id} index={itemIndex} setRoot={setRoot} />;
 };
+
+const isLast = (index, items) => index === items.length - 1;
+const isFirst = (index) => index === 0;
 
 // index is assumed to exist and be valid
 // setRoot must end with a `/`
@@ -38,7 +50,6 @@ export const Carousel = ({ items, id, index, setRoot }) => {
 
   const navNext = () => navigate(`${setRoot}${nextItem.slugs[0]}`);
   const navPrev = () => navigate(`${setRoot}${prevItem.slugs[0]}`);
-
   useHotkeys("left", navPrev);
   useHotkeys("right", navNext);
 
@@ -57,7 +68,7 @@ export const Carousel = ({ items, id, index, setRoot }) => {
         backdropFilter="blur(20px) hue-rotate(90deg)"
       />
       <ModalContent>
-        <ModalHeader>{item.title || " "}</ModalHeader>
+        <CarouselHeader item={item} />
         <ModalCloseButton color={"gray"} />
 
         <ModalBody>

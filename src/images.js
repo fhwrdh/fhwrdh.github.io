@@ -12,24 +12,67 @@ export const findIndex = (slug, items) =>
 
 //------------
 //
-const addPath = R.map((i) => R.assocPath(["path"], `${prefix}${i.src}`, i));
-const addId = R.map((i) => R.assocPath(["id"], getId(i.src), i));
-const buildTitles = R.map((i) =>
-  R.assocPath(["title"], i.title || "untitled", i),
-);
+const defaultTitle = "untitled";
+const defaultImageSchema = {
+  title: "",
+  display: {
+    title: "",
+    geotime: "",
+    exif: "",
+  },
+  meta: {
+    film: "",
+    camera: "",
+    location: "",
+    time: "",
+  },
+};
+
+const buildDisplayTitle = (i) => {
+  return i.title;
+};
+
+const buildDisplayGeoTime = (i) => {
+  // TODO handle just time or just location
+  if (!i.meta.location && !i.meta.time) return null;
+  return `${i.meta.location}, ${i.meta.time}`;
+};
+
+const buildDisplayExif = (i) => {
+  // todo handle just film or just camera
+  if (!i.meta.film && !i.meta.camera) return null;
+  return `${i.meta.film}, ${i.meta.camera}`;
+};
+
+const buildDisplay = R.map((i) => {
+  return R.pipe(
+    R.assocPath(["display", "title"], buildDisplayTitle(i)),
+    R.assocPath(["display", "geotime"], buildDisplayGeoTime(i)),
+    R.assocPath(["display", "exif"], buildDisplayExif(i)),
+  )(i);
+});
+
 const buildSlugs = R.map((i) => {
   const slugs = [i.id];
-  if (i.title !== "untitled") {
+  if (i.title !== defaultTitle && i.title !== "") {
     // put the title first, use it first
     slugs.unshift(slugify(i.title));
   }
-
   return R.assocPath(["slugs"], slugs, i);
 });
-const buildImages = R.pipe(addPath, addId, buildTitles, buildSlugs);
 
+const addDefaults = R.map(R.mergeDeepRight(defaultImageSchema));
+const addPath = R.map((i) => R.assocPath(["path"], `${prefix}${i.src}`, i));
+const addId = R.map((i) => R.assocPath(["id"], getId(i.src), i));
+
+const buildImages = R.pipe(
+  addDefaults,
+  addPath,
+  addId,
+  buildSlugs,
+  buildDisplay,
+);
 //------------
-//
 
 export const homeImages = buildImages([
   { src: "DSCF0156.jpg" },
@@ -60,14 +103,88 @@ export const homeImages = buildImages([
 
 // first they passed right through us
 export const ftprtuImages = buildImages([
-  { src: "DSCF7931.jpg", title: "winter couplet" },
-  { src: "DSCF7930.jpg", title: "the spaces contained in each" },
-  { src: "DSCF8416.jpg", title: "if here, not there, if not there, then here" },
-  { src: "DSCF8007.jpg", title: "winds through bleak timber" },
-  { src: "DSCF8405.jpg", title: "proximities" },
-  { src: "DSCF7887.jpg", title: "airforms" },
-  { src: "DSCF7961.jpg", title: "transmissions" },
-  { src: "DSCF7944.jpg", title: "two hands behind glass" },
+  {
+    src: "DSCF7931.jpg",
+    title: "winter couplet",
+    meta: {
+      film: "Ilford HP5+",
+      camera: "Mamiya 7",
+      location: "Seattle, Washington",
+      time: "2024",
+    },
+  },
+  {
+    src: "DSCF7930.jpg",
+    title: "the spaces contained in each",
+    meta: {
+      film: "Ilford HP5+",
+      camera: "Mamiya 7",
+      location: "Seattle, Washington",
+      time: "2024",
+    },
+  },
+  {
+    src: "DSCF8416.jpg",
+    title: "if here, not there, if not there, then here",
+    meta: {
+      film: "Ilford HP5+",
+      camera: "Mamiya 7",
+      location: "San Francisco, California",
+      time: "2024",
+    },
+  },
+  {
+    src: "DSCF8007.jpg",
+    title: "winds through bleak timber",
+    meta: {
+      film: "Ilford HP5+",
+      camera: "Mamiya 7",
+      location: "Olympia, Washington",
+      time: "2024",
+    },
+  },
+  {
+    src: "DSCF8405.jpg",
+    title: "proximities",
+    meta: {
+      film: "Ilford HP5+",
+      camera: "Mamiya 7",
+      location: "San Francisco, California",
+      time: "2024",
+    },
+  },
+  {
+    src: "DSCF7887.jpg",
+    title: "airforms",
+
+    meta: {
+      film: "Ilford HP5+",
+      camera: "Mamiya 7",
+      location: "Seattle, Washington",
+      time: "2024",
+    },
+  },
+  {
+    src: "DSCF7961.jpg",
+    title: "transmissions",
+
+    meta: {
+      film: "Ilford HP5+",
+      camera: "Mamiya 7",
+      location: "Seattle, Washington",
+      time: "2024",
+    },
+  },
+  {
+    src: "DSCF7944.jpg",
+    title: "two hands behind glass",
+    meta: {
+      film: "Ilford HP5+",
+      camera: "Mamiya 7",
+      location: "Seattle, Washington",
+      time: "2024",
+    },
+  },
 ]);
 
 // on the road
