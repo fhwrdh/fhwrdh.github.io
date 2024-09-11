@@ -36,8 +36,11 @@ export const Carousel = ({ items, id, index, setRoot }) => {
     ? items[items.length - 1]
     : items[index - 1];
 
-  useHotkeys("left", () => navigate(`${setRoot}${prevItem.slugs[0]}`));
-  useHotkeys("right", () => navigate(`${setRoot}${nextItem.slugs[0]}`));
+  const navNext = () => navigate(`${setRoot}${nextItem.slugs[0]}`);
+  const navPrev = () => navigate(`${setRoot}${prevItem.slugs[0]}`);
+
+  useHotkeys("left", navPrev);
+  useHotkeys("right", navNext);
 
   return (
     <Modal
@@ -62,21 +65,17 @@ export const Carousel = ({ items, id, index, setRoot }) => {
             <Image src={item.path} mb={2} maxH="90vh" />
             <IconButton
               mx={1}
-              size="xs"
+              size="sm"
               aria-label="previous"
               icon={<FaChevronLeft color="gray" />}
-              onClick={() => {
-                navigate(`${setRoot}${prevId}`);
-              }}
+              onClick={navPrev}
             />
             <IconButton
               mx={1}
-              size="xs"
+              size="sm"
               aria-label="next"
               icon={<FaChevronRight color="gray" />}
-              onClick={() => {
-                navigate(`${setRoot}${nextId}`);
-              }}
+              onClick={navNext}
             />
           </Box>
         </ModalBody>
