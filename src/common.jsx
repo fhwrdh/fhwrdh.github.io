@@ -3,11 +3,11 @@ import { Box, Heading as CHeading, Image } from "@chakra-ui/react";
 import { getId } from "./images";
 
 export const MasonryImg = ({ index, data }) => {
-  const id = getId(data.src);
+  const slug = data.slugs[0];
   return (
     <Box key={index}>
-      <Link to={id}>
-        <Image src={data.src} width="100%" alt={`${data.src}`} />
+      <Link to={slug}>
+        <Image src={data.path} width="100%" alt={`${data.title || ""}`} />
       </Link>
     </Box>
   );

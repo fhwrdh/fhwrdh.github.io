@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { FaChevronLeft, FaChevronRight } from "./Icons";
 import {
   Box,
@@ -12,28 +12,32 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 import { useHotkeys } from "react-hotkeys-hook";
-import { getId } from "../images";
+import { getId, findIndex } from "../images";
 
 const isLast = (index, items) => index === items.length - 1;
 const isFirst = (index) => index === 0;
 
-// id is assumed to exist and be valid
+export const useCarousel = (items, setRoot) => {
+  const { id } = useParams();
+  const itemIndex = findIndex(id, items);
+
+  if (itemIndex < 0) return null;
+  return <Carousel items={items} id={id} index={itemIndex} setRoot={setRoot} />;
+};
+
+// index is assumed to exist and be valid
 // setRoot must end with a `/`
-export const Carousel = ({ items, id, setRoot }) => {
+export const Carousel = ({ items, id, index, setRoot }) => {
   const navigate = useNavigate();
 
-  const itemIndex = items.findIndex((item) => item.src.includes(id));
-  const item = items[itemIndex];
-  const nextItem = isLast(itemIndex, items) ? items[0] : items[itemIndex + 1];
-  const prevItem = isFirst(itemIndex, items)
+  const item = items[index];
+  const nextItem = isLast(index, items) ? items[0] : items[index + 1];
+  const prevItem = isFirst(index, items)
     ? items[items.length - 1]
-    : items[itemIndex - 1];
+    : items[index - 1];
 
-  const nextId = getId(nextItem.src);
-  const prevId = getId(prevItem.src);
-
-  useHotkeys("left", () => navigate(`${setRoot}${prevId}`));
-  useHotkeys("right", () => navigate(`${setRoot}${nextId}`));
+  useHotkeys("left", () => navigate(`${setRoot}${prevItem.slugs[0]}`));
+  useHotkeys("right", () => navigate(`${setRoot}${nextItem.slugs[0]}`));
 
   return (
     <Modal
@@ -55,7 +59,7 @@ export const Carousel = ({ items, id, setRoot }) => {
 
         <ModalBody>
           <Box position="relative" align="center">
-            <Image src={item.src} mb={2} maxH="90vh" />
+            <Image src={item.path} mb={2} maxH="90vh" />
             <IconButton
               mx={1}
               size="xs"

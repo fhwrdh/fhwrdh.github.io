@@ -1,23 +1,37 @@
 import * as R from "ramda";
+import slugify from "slugify";
 
-const prefix = "/work/";
-
-const addPrefix = R.map((i) => R.assocPath(["src"], `${prefix}${i.src}`, i));
-
+export const prefix = "/work/";
+export const addPrefix = R.map((i) =>
+  R.assocPath(["src"], `${prefix}${i.src}`, i),
+);
 export const getId = R.pipe(R.replace(prefix, ""), R.split("."), R.head);
 
-export const ftprtu = [
-  { src: "1_DSCF7931.jpg" },
-  { src: "2_DSCF7930.jpg" },
-  { src: "3_DSCF8416.jpg" },
-  { src: "4_DSCF8007.jpg" },
-  { src: "5_DSCF8405.jpg" },
-  { src: "6_DSCF7887.jpg" },
-  { src: "7_DSCF7961.jpg" },
-  { src: "8_DSCF7944.jpg" },
-];
+export const findIndex = (slug, items) =>
+  items.findIndex((item) => item.slugs.includes(slug));
 
-const home = [
+//------------
+//
+const addPath = R.map((i) => R.assocPath(["path"], `${prefix}${i.src}`, i));
+const addId = R.map((i) => R.assocPath(["id"], getId(i.src), i));
+const buildTitles = R.map((i) =>
+  R.assocPath(["title"], i.title || "untitled", i),
+);
+const buildSlugs = R.map((i) => {
+  const slugs = [i.id];
+  if (i.title !== "untitled") {
+    // put the title first, use it first
+    slugs.unshift(slugify(i.title));
+  }
+
+  return R.assocPath(["slugs"], slugs, i);
+});
+const buildImages = R.pipe(addPath, addId, buildTitles, buildSlugs);
+
+//------------
+//
+
+export const homeImages = buildImages([
   { src: "DSCF0156.jpg" },
   { src: "DSCF2215.jpg" },
   { src: "DSCF0445.jpg" },
@@ -42,9 +56,22 @@ const home = [
   { src: "DSCF8079.jpg" },
   { src: "DSCF8289.jpg" },
   { src: "DSCF8410.jpg" },
-];
+]);
 
-const otr = [
+// first they passed right through us
+export const ftprtuImages = buildImages([
+  { src: "DSCF7931.jpg", title: "winter couplet" },
+  { src: "DSCF7930.jpg", title: "the spaces contained in each" },
+  { src: "DSCF8416.jpg", title: "if here, not there, if not there, then here" },
+  { src: "DSCF8007.jpg", title: "winds through bleak timber" },
+  { src: "DSCF8405.jpg", title: "proximities" },
+  { src: "DSCF7887.jpg", title: "airforms" },
+  { src: "DSCF7961.jpg", title: "transmissions" },
+  { src: "DSCF7944.jpg", title: "two hands behind glass" },
+]);
+
+// on the road
+export const otrImages = buildImages([
   { src: "DSCF0409.jpg" },
   { src: "DSCF0456.jpg" },
   { src: "DSCF0419.jpg" },
@@ -63,9 +90,10 @@ const otr = [
   { src: "DSCF6820.jpg" },
   { src: "DSCF8853.jpg" },
   { src: "DSCF8433.jpg" },
-];
+]);
 
-const sots = [
+// sound of the sea
+export const sotsImages = buildImages([
   { src: "DSCF2788.jpg" },
   { src: "DSCF2648.jpg" },
   { src: "DSCF2743.jpg" },
@@ -89,9 +117,6 @@ const sots = [
   { src: "DSCF8653.jpg" },
   { src: "DSCF9697.jpg" },
   { src: "DSCF9860.jpg" },
-];
+]);
 
-export const homeImages = addPrefix(home);
-export const ftprtuImages = addPrefix(ftprtu);
-export const otrImages = addPrefix(otr);
-export const sotsImages = addPrefix(sots);
+// console.log({ homeImages, ftprtuImages, otrImages, sotsImages });

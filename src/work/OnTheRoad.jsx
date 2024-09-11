@@ -1,18 +1,15 @@
-import { useParams } from "react-router-dom";
 import { otrImages } from "../images";
 import { WorkHeading, WorkContainer, WorkMasonry } from "./common";
 import { Heading } from "../common";
-import { Carousel } from "../components/Carousel";
+import { useCarousel } from "../components/Carousel";
 
 export default function OnTheRoad() {
-  const { id } = useParams();
+  const carousel = useCarousel(otrImages, "/work/ontheroad/");
   return (
     <WorkContainer>
       <WorkHeading>
         <Heading>On The Road</Heading>
-        {id && (
-          <Carousel items={otrImages} id={id} setRoot="/work/ontheroad/" />
-        )}
+        {carousel}
       </WorkHeading>
       <WorkMasonry items={otrImages} />
     </WorkContainer>
