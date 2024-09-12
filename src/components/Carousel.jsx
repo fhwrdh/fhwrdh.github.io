@@ -4,6 +4,7 @@ import {
   Box,
   IconButton,
   Image,
+  Link,
   Modal,
   ModalOverlay,
   ModalContent,
@@ -16,12 +17,17 @@ import { findIndex } from "../images";
 
 const CarouselHeader = ({ item }) => {
   return (
-    <ModalHeader fontWeight={300}>
+    <ModalHeader fontWeight={400}>
       <Box>{item.display.title}</Box>
       {item?.display?.geotime && (
         <Box fontSize={"xs"}>{item.display.geotime}</Box>
       )}
       {item?.display?.exif && <Box fontSize={"xs"}>{item.display.exif}</Box>}
+      {item?.link && (
+        <Link href={item.link.href} fontSize="xs" isExternal>
+          {item.link.text}
+        </Link>
+      )}
     </ModalHeader>
   );
 };

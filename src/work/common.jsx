@@ -3,7 +3,15 @@ import { Masonry } from "masonic";
 import { MasonryImg } from "../common";
 
 export const WorkHeading = ({ children }) => (
-  <Box minW={{ base: "100%", md: "25%" }}>{children}</Box>
+  <Box
+    //
+    minW={{ base: "100%", md: "25%" }}
+    maxW={{ base: "100%", md: "25%" }}
+    marginRight={{ base: 0, md: 4, lg: 16 }}
+    marginBottom={{ base: 4, md: 0 }}
+  >
+    {children}
+  </Box>
 );
 
 export const WorkImage = ({ src }) => {

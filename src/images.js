@@ -112,6 +112,10 @@ export const ftprtuImages = buildImages([
       location: "Seattle, Washington",
       time: "2024",
     },
+    link: {
+      href: "https://steveroden.bandcamp.com/album/winter-couplet",
+      text: "Steve Roden Bandcamp",
+    },
   },
   {
     src: "DSCF7930.jpg",
@@ -121,6 +125,10 @@ export const ftprtuImages = buildImages([
       camera: "Mamiya 7",
       location: "Seattle, Washington",
       time: "2024",
+    },
+    link: {
+      href: "https://stephenvitiello.bandcamp.com/album/the-spaces-contained-in-each",
+      text: "Stephen Vitello Bandcamp",
     },
   },
   {
@@ -132,6 +140,10 @@ export const ftprtuImages = buildImages([
       location: "San Francisco, California",
       time: "2024",
     },
+    link: {
+      href: "https://yuionodera.bandcamp.com/track/if-here-not-there-if-not-there-then-here",
+      text: "Yui Onodera Bandcamp",
+    },
   },
   {
     src: "DSCF8007.jpg",
@@ -141,6 +153,10 @@ export const ftprtuImages = buildImages([
       camera: "Mamiya 7",
       location: "Olympia, Washington",
       time: "2024",
+    },
+    link: {
+      href: "https://12kmusic.bandcamp.com/track/winds-through-bleak-timber",
+      text: "12k Bandcamp",
     },
   },
   {
@@ -152,27 +168,37 @@ export const ftprtuImages = buildImages([
       location: "San Francisco, California",
       time: "2024",
     },
+    link: {
+      href: "https://steveroden.bandcamp.com/album/proximities",
+      text: "Steve Roden Bandcamp",
+    },
   },
   {
     src: "DSCF7887.jpg",
     title: "airforms",
-
     meta: {
       film: "Ilford HP5+",
       camera: "Mamiya 7",
       location: "Seattle, Washington",
       time: "2024",
     },
+    link: {
+      href: "https://steveroden.bandcamp.com/album/airforms",
+      text: "Steve Roden Bandcamp",
+    },
   },
   {
     src: "DSCF7961.jpg",
     title: "transmissions",
-
     meta: {
       film: "Ilford HP5+",
       camera: "Mamiya 7",
       location: "Seattle, Washington",
       time: "2024",
+    },
+    link: {
+      href: "https://steveroden.bandcamp.com/album/transmissions-voices-of-objects-and-skies",
+      text: "Steve Roden Bandcamp",
     },
   },
   {
@@ -183,6 +209,10 @@ export const ftprtuImages = buildImages([
       camera: "Mamiya 7",
       location: "Seattle, Washington",
       time: "2024",
+    },
+    link: {
+      href: "https://steveroden.bandcamp.com/track/two-hands-behind-glass",
+      text: "Steve Roden Bandcamp",
     },
   },
 ]);
