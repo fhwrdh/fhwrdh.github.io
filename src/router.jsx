@@ -10,6 +10,7 @@ import About from "./About";
 import FirstTheyPassed from "./work/FirstTheyPassed";
 import OnTheRoad from "./work/OnTheRoad";
 import SoundOfTheSea from "./work/SoundOfTheSea";
+import IfYouCantSeeMyMirrors from "./work/IfYouCantSeeMyMirrors";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createHashRouter(
       <Route index element={<Home />} />
       <Route path="work">
         <Route path="ftprtu/:id?" element={<FirstTheyPassed />} />
+        <Route path="iycsmm/:id?" element={<IfYouCantSeeMyMirrors />} />
         <Route path="ontheroad/:id?" element={<OnTheRoad />} />
         <Route path="soundofthesea/:id?" element={<SoundOfTheSea />} />
       </Route>

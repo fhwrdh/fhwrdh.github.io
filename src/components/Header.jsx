@@ -39,7 +39,10 @@ export default function SiteHeader() {
           <MenuButton fontWeight={300}>Work</MenuButton>
           <MenuList>
             <MenuItem as={NavLink} to="/work/ftprtu">
-              FTPRTU
+              First They Passed Right Through Us
+            </MenuItem>
+            <MenuItem as={NavLink} to="/work/iycsmm">
+              If You Can't See My Mirrors
             </MenuItem>
             <MenuItem as={NavLink} to="/work/soundofthesea">
               Sound of the Sea
