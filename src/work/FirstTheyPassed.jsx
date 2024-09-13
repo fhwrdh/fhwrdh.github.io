@@ -11,7 +11,9 @@ export default function FirstTheyPassed() {
       <WorkHeading>
         <Heading as="h3" size="sm">
           <Text fontWeight={500}>First They Passed Right Through Us</Text>
-          <Text fontSize="sm">Spring 2024</Text>
+          <Text fontSize="sm" pt={2}>
+            Spring 2024
+          </Text>
         </Heading>
         <Box mt={4} fontSize={"sm"}>
           <Text mb={4}>

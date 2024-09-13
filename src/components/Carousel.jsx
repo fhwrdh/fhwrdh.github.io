@@ -70,7 +70,7 @@ export const Carousel = ({ items, id, index, setRoot }) => {
       }}
     >
       <ModalOverlay
-        bg="blackAlpha.50"
+        bg="blackAlpha.300"
         backdropFilter="blur(20px) hue-rotate(90deg)"
       />
       <ModalContent>
