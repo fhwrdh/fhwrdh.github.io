@@ -217,8 +217,8 @@ export const ftprtuImages = buildImages([
   },
 ]);
 
-// if you can't see my mirrors
-export const iycsmmImages = buildImages([
+// angle of repose
+export const aorImages = buildImages([
   { src: "DSCF8651.jpg" },
   { src: "DSCF2585.jpg" },
   { src: "DSCF0348.jpg" },
@@ -241,8 +241,8 @@ export const iycsmmImages = buildImages([
   { src: "DSCF9028.jpg" },
 ]);
 
-// on the road
-export const otrImages = buildImages([
+// if you can't see my mirrors
+export const iycsmmImages = buildImages([
   { src: "DSCF0409.jpg" },
   { src: "DSCF0456.jpg" },
   { src: "DSCF0419.jpg" },

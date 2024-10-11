@@ -1,17 +1,17 @@
-import { otrImages } from "../images";
+import { aorImages } from "../images";
 import { WorkHeading, WorkContainer, WorkMasonry } from "./common";
 import { Heading } from "../common";
 import { useCarousel } from "../components/Carousel";
 
-export default function OnTheRoad() {
-  const carousel = useCarousel(otrImages, "/work/ontheroad/");
+export default function AngleOfRepose() {
+  const carousel = useCarousel(aorImages, "/work/angleofrepose/");
   return (
     <WorkContainer>
       <WorkHeading>
-        <Heading>On The Road</Heading>
+        <Heading>Angle of Repose</Heading>
         {carousel}
       </WorkHeading>
-      <WorkMasonry items={otrImages} />
+      <WorkMasonry items={aorImages} />
     </WorkContainer>
   );
 }

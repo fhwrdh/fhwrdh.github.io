@@ -41,14 +41,14 @@ export default function SiteHeader() {
             <MenuItem as={NavLink} to="/work/ftprtu">
               First They Passed Right Through Us
             </MenuItem>
-            <MenuItem as={NavLink} to="/work/iycsmm">
-              If You Can't See My Mirrors
+            <MenuItem as={NavLink} to="/work/angleofrepose">
+              Angle of Repose
             </MenuItem>
             <MenuItem as={NavLink} to="/work/soundofthesea">
               Sound of the Sea
             </MenuItem>
-            <MenuItem as={NavLink} to="/work/ontheroad">
-              On the Road
+            <MenuItem as={NavLink} to="/work/iycsmm">
+              If You Can't See My Mirrors
             </MenuItem>
           </MenuList>
         </Menu>

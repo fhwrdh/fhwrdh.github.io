@@ -8,7 +8,7 @@ import Layout from "./Layout";
 import Home from "./Home";
 import About from "./About";
 import FirstTheyPassed from "./work/FirstTheyPassed";
-import OnTheRoad from "./work/OnTheRoad";
+import AngleOfRepose from "./work/AngleOfRepose";
 import SoundOfTheSea from "./work/SoundOfTheSea";
 import IfYouCantSeeMyMirrors from "./work/IfYouCantSeeMyMirrors";
 
@@ -19,7 +19,7 @@ const router = createHashRouter(
       <Route path="work">
         <Route path="ftprtu/:id?" element={<FirstTheyPassed />} />
         <Route path="iycsmm/:id?" element={<IfYouCantSeeMyMirrors />} />
-        <Route path="ontheroad/:id?" element={<OnTheRoad />} />
+        <Route path="angleofrepose/:id?" element={<AngleOfRepose />} />
         <Route path="soundofthesea/:id?" element={<SoundOfTheSea />} />
       </Route>
       <Route path="about" element={<About />} />
