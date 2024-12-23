@@ -43,6 +43,11 @@ export default function About() {
 
           <Box>2024</Box>
           <Box>
+            <Text as="i">Frames Within Frames</Text>, Praxis Photo Arts Center,
+            Minneapolis, Minnesota
+          </Box>
+          <Box></Box>
+          <Box>
             <Text as="i">Show Me Your Seattle</Text>, Seattle, Washington
           </Box>
           <Box></Box>
