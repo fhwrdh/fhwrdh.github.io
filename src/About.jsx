@@ -11,28 +11,30 @@ export default function About() {
         <Text mb={4}>
           Photography for me is about noticing—about paying attention to the way
           time, movement, and perception shape what we see. Sound is an
-          important part of this perception. I am looking for both the effects
-          of sound on photographs as well as the sound that photographs produce.
-          I think I can hear the lines on the road and the reflection in that
-          glass, see the barely audible vibration of the docked ferry and the
-          distant hum of that building.
+          important part of this. I am looking for both the effects of sound on
+          photographs as well as the sound that photographs express. I think I
+          can hear the lines on the road and the reflection in that glass; see
+          the barely audible vibration of the docked ferry and the distant hum
+          of that building.
         </Text>
+
         <Text mb={4}>
           I am drawn to unplanned abstraction, finding it in reflections,
           layered views through windows, unintended geometry, and the shapes
           that humans carve in space. Chance and self-imposed procedural
           constraints usually play a role. I like ceding some control to time,
           random numbers and maps. These constraints push me off the beaten
-          path. Photographs want to be uncertain. To ask questions, not answer
+          path. Photographs want to be uncertain - to ask questions, not answer
           them.
         </Text>
+
         <Text mb={4}>
           I make photographs in black and white, working within the limits of an
           analog process. An antidote to a digital nine to five and the usual
           megapixel chasing. The process is physical, from loading the camera to
-          developing film to printing in the darkroom. That hands-on connection
-          with the machines and film keeps me engaged with the process while
-          allowing me to create something personal and momentary.
+          developing to printing in the darkroom. This tactile, hands-on
+          connection with the machines and the film keeps me engaged with the
+          process while allowing me to create something personal and momentary.
         </Text>
 
         <Text mb={4}>
