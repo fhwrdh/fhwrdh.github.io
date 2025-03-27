@@ -183,8 +183,8 @@ export const ftprtuImages = buildImages([
       time: "2024",
     },
     link: {
-      href: "https://steveroden.bandcamp.com/album/airforms",
-      text: "Steve Roden Bandcamp",
+      href: "https://lineimprint.bandcamp.com/album/airforms",
+      text: "Line Bandcamp",
     },
   },
   {
