@@ -52,6 +52,11 @@ export default function About() {
             <Text textTransform="capitalize">Exhibitions</Text>
           </Box>
 
+          <Box>2025</Box>
+          <Box>
+            <Text as="i">Shutter & Light</Text>, Jet City Labs, Seattle,
+            Washington
+          </Box>
           <Box>2024</Box>
           <Box>
             <Text as="i">Frames Within Frames</Text>, Praxis Photo Arts Center,
