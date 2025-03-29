@@ -45,7 +45,7 @@ export default function About() {
       <Box w={{ base: "100%", md: "75%" }} ml={{ base: 0, md: 12 }}>
         <Grid templateColumns={"min-content 16px 1fr"} columnGap={3} rowGap={2}>
           <GridItem />
-          <GridItem rowSpan={5}>
+          <GridItem rowSpan={6}>
             <Divider orientation="vertical" />
           </GridItem>
           <Box borderBottom="1px solid" borderColor="gray.200" pb={2}>
