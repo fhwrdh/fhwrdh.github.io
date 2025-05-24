@@ -9,8 +9,8 @@ export default function About() {
         ml={{ base: 0, md: 12 }}
       >
         <Text mb={4}>
-          Photography for me is about noticing—about paying attention to the way
-          time, movement, and perception shape what we see. Sound is an
+          Photography is my way of noticing—about paying deliberate attention to
+          the way time, movement, and perception shape what we see. Sound is an
           important part of this. I am looking for both the effects of sound on
           photographs as well as the sound that photographs express. I think I
           can hear the lines on the road and the reflection in that glass; see
@@ -29,12 +29,13 @@ export default function About() {
         </Text>
 
         <Text mb={4}>
-          I make photographs in black and white, working within the limits of an
-          analog process. An antidote to a digital nine to five and the usual
-          megapixel chasing. The process is physical, from loading the camera to
-          developing to printing in the darkroom. This tactile, hands-on
-          connection with the machines and the film keeps me engaged with the
-          process while allowing me to create something personal and momentary.
+          I work in black and white, embracing the limitations of analog
+          processes. This approach serves as a counterbalance to digital
+          immersion and the pursuit of technical perfection. The process is
+          physical, from loading the camera to developing to printing in the
+          darkroom. This tactile, hands-on connection with the machines and the
+          film keeps me engaged with the process while allowing me to create
+          something personal and momentary.
         </Text>
 
         <Text mb={4}>
