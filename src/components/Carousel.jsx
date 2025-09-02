@@ -56,12 +56,15 @@ export const Carousel = ({ items, id, index, setRoot }) => {
 
   const navNext = () => navigate(`${setRoot}${nextItem.slugs[0]}`);
   const navPrev = () => navigate(`${setRoot}${prevItem.slugs[0]}`);
+  const navClose = () => navigate(setRoot);
+  
   useHotkeys("left", navPrev);
   useHotkeys("right", navNext);
+  useHotkeys("escape", navClose);
 
   return (
     <Modal
-      size={{ base: "full", md: "6xl" }}
+      size="full"
       isCentered
       isOpen={true}
       closeOnOverlayClick={false}
@@ -77,23 +80,38 @@ export const Carousel = ({ items, id, index, setRoot }) => {
         <CarouselHeader item={item} />
         <ModalCloseButton color={"gray"} />
 
-        <ModalBody>
-          <Box position="relative" align="center">
-            <Image src={item.path} mb={2} maxH="90vh" />
-            <IconButton
-              mx={1}
-              size="sm"
-              aria-label="previous"
-              icon={<FaChevronLeft color="gray" />}
-              onClick={navPrev}
+        <ModalBody p={4}>
+          <Box 
+            position="relative" 
+            display="flex" 
+            flexDirection="column" 
+            alignItems="center"
+            justifyContent="center"
+            height="calc(80vh - 100px)"
+          >
+            <Image 
+              src={item.path} 
+              maxH="100%" 
+              maxW="100%"
+              objectFit="contain"
+              mb={2}
             />
-            <IconButton
-              mx={1}
-              size="sm"
-              aria-label="next"
-              icon={<FaChevronRight color="gray" />}
-              onClick={navNext}
-            />
+            <Box>
+              <IconButton
+                mx={1}
+                size="sm"
+                aria-label="previous"
+                icon={<FaChevronLeft color="gray" />}
+                onClick={navPrev}
+              />
+              <IconButton
+                mx={1}
+                size="sm"
+                aria-label="next"
+                icon={<FaChevronRight color="gray" />}
+                onClick={navNext}
+              />
+            </Box>
           </Box>
         </ModalBody>
       </ModalContent>
