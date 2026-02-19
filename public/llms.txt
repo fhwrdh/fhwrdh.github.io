@@ -1,0 +1,28 @@
+# photo.fhwrdh.net
+
+> Photography portfolio of Franklin Henderson, Seattle, Washington.
+
+This is a client-side React application. The HTML source contains no rendered content.
+For structured site data, see: https://photo.fhwrdh.net/site-manifest.json
+
+## Pages
+
+- / — Home. Masonry grid of selected photographs.
+- /work/ftprtu — First They Passed Right Through Us (Spring 2024). B&W film series paired with music from Steve Roden.
+- /work/angleofrepose — Angle of Repose. Photo series.
+- /work/iycsmm — If You Can't See My Mirrors. Photo series.
+- /work/soundofthesea — Sound of the Sea. Photo series.
+- /about — Artist statement and exhibition history.
+
+## Navigation
+
+This site uses hash-based routing. All URLs are formatted as:
+https://photo.fhwrdh.net/#/work/ftprtu
+
+Individual images open in a modal carousel at URLs like:
+https://photo.fhwrdh.net/#/work/ftprtu/winter-couplet
+
+## Images
+
+All photographs are served from /work/ (e.g. /work/DSCF0156.jpg).
+Full image listing with metadata is available in site-manifest.json.

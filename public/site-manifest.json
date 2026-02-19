@@ -1,0 +1,1948 @@
+{
+  "generated": "2026-02-19T22:21:40.895Z",
+  "site": "https://photo.fhwrdh.net",
+  "routing": "hash-based (e.g. https://photo.fhwrdh.net/#/work/ftprtu)",
+  "pages": [
+    {
+      "name": "Home",
+      "route": "/",
+      "description": "Landing page with masonry grid of selected images",
+      "images": [
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF0156.jpg",
+          "path": "/work/DSCF0156.jpg",
+          "id": "DSCF0156",
+          "slugs": [
+            "DSCF0156"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF2215.jpg",
+          "path": "/work/DSCF2215.jpg",
+          "id": "DSCF2215",
+          "slugs": [
+            "DSCF2215"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF0445.jpg",
+          "path": "/work/DSCF0445.jpg",
+          "id": "DSCF0445",
+          "slugs": [
+            "DSCF0445"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1777-2.jpg",
+          "path": "/work/DSCF1777-2.jpg",
+          "id": "DSCF1777-2",
+          "slugs": [
+            "DSCF1777-2"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1193.jpg",
+          "path": "/work/DSCF1193.jpg",
+          "id": "DSCF1193",
+          "slugs": [
+            "DSCF1193"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1982.jpg",
+          "path": "/work/DSCF1982.jpg",
+          "id": "DSCF1982",
+          "slugs": [
+            "DSCF1982"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF2310.jpg",
+          "path": "/work/DSCF2310.jpg",
+          "id": "DSCF2310",
+          "slugs": [
+            "DSCF2310"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF3071.jpg",
+          "path": "/work/DSCF3071.jpg",
+          "id": "DSCF3071",
+          "slugs": [
+            "DSCF3071"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF4083.jpg",
+          "path": "/work/DSCF4083.jpg",
+          "id": "DSCF4083",
+          "slugs": [
+            "DSCF4083"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF4104.jpg",
+          "path": "/work/DSCF4104.jpg",
+          "id": "DSCF4104",
+          "slugs": [
+            "DSCF4104"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF4105.jpg",
+          "path": "/work/DSCF4105.jpg",
+          "id": "DSCF4105",
+          "slugs": [
+            "DSCF4105"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF4250.jpg",
+          "path": "/work/DSCF4250.jpg",
+          "id": "DSCF4250",
+          "slugs": [
+            "DSCF4250"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF4654.jpg",
+          "path": "/work/DSCF4654.jpg",
+          "id": "DSCF4654",
+          "slugs": [
+            "DSCF4654"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF4676.jpg",
+          "path": "/work/DSCF4676.jpg",
+          "id": "DSCF4676",
+          "slugs": [
+            "DSCF4676"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF4941.jpg",
+          "path": "/work/DSCF4941.jpg",
+          "id": "DSCF4941",
+          "slugs": [
+            "DSCF4941"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5080.jpg",
+          "path": "/work/DSCF5080.jpg",
+          "id": "DSCF5080",
+          "slugs": [
+            "DSCF5080"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5228.jpg",
+          "path": "/work/DSCF5228.jpg",
+          "id": "DSCF5228",
+          "slugs": [
+            "DSCF5228"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5950.jpg",
+          "path": "/work/DSCF5950.jpg",
+          "id": "DSCF5950",
+          "slugs": [
+            "DSCF5950"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7089-2.jpg",
+          "path": "/work/DSCF7089-2.jpg",
+          "id": "DSCF7089-2",
+          "slugs": [
+            "DSCF7089-2"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7483.jpg",
+          "path": "/work/DSCF7483.jpg",
+          "id": "DSCF7483",
+          "slugs": [
+            "DSCF7483"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF9833.jpg",
+          "path": "/work/DSCF9833.jpg",
+          "id": "DSCF9833",
+          "slugs": [
+            "DSCF9833"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8079.jpg",
+          "path": "/work/DSCF8079.jpg",
+          "id": "DSCF8079",
+          "slugs": [
+            "DSCF8079"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8289.jpg",
+          "path": "/work/DSCF8289.jpg",
+          "id": "DSCF8289",
+          "slugs": [
+            "DSCF8289"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8410.jpg",
+          "path": "/work/DSCF8410.jpg",
+          "id": "DSCF8410",
+          "slugs": [
+            "DSCF8410"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "First They Passed Right Through Us",
+      "route": "/work/ftprtu",
+      "description": "Spring 2024 series. B&W film photography paired with music from Steve Roden's discography. Each image is named for and linked to a corresponding piece of music.",
+      "images": [
+        {
+          "title": "winter couplet",
+          "display": {
+            "title": "winter couplet",
+            "geotime": "Seattle, Washington, 2024",
+            "exif": "Ilford HP5+, Mamiya 7"
+          },
+          "meta": {
+            "film": "Ilford HP5+",
+            "camera": "Mamiya 7",
+            "location": "Seattle, Washington",
+            "time": "2024"
+          },
+          "src": "DSCF7931.jpg",
+          "link": {
+            "href": "https://steveroden.bandcamp.com/album/winter-couplet",
+            "text": "Steve Roden Bandcamp"
+          },
+          "path": "/work/DSCF7931.jpg",
+          "id": "DSCF7931",
+          "slugs": [
+            "winter-couplet",
+            "DSCF7931"
+          ]
+        },
+        {
+          "title": "the spaces contained in each",
+          "display": {
+            "title": "the spaces contained in each",
+            "geotime": "Seattle, Washington, 2024",
+            "exif": "Ilford HP5+, Mamiya 7"
+          },
+          "meta": {
+            "film": "Ilford HP5+",
+            "camera": "Mamiya 7",
+            "location": "Seattle, Washington",
+            "time": "2024"
+          },
+          "src": "DSCF7930.jpg",
+          "link": {
+            "href": "https://stephenvitiello.bandcamp.com/album/the-spaces-contained-in-each",
+            "text": "Stephen Vitello Bandcamp"
+          },
+          "path": "/work/DSCF7930.jpg",
+          "id": "DSCF7930",
+          "slugs": [
+            "the-spaces-contained-in-each",
+            "DSCF7930"
+          ]
+        },
+        {
+          "title": "if here, not there, if not there, then here",
+          "display": {
+            "title": "if here, not there, if not there, then here",
+            "geotime": "San Francisco, California, 2024",
+            "exif": "Ilford HP5+, Mamiya 7"
+          },
+          "meta": {
+            "film": "Ilford HP5+",
+            "camera": "Mamiya 7",
+            "location": "San Francisco, California",
+            "time": "2024"
+          },
+          "src": "DSCF8416.jpg",
+          "link": {
+            "href": "https://yuionodera.bandcamp.com/track/if-here-not-there-if-not-there-then-here",
+            "text": "Yui Onodera Bandcamp"
+          },
+          "path": "/work/DSCF8416.jpg",
+          "id": "DSCF8416",
+          "slugs": [
+            "if-here-not-there-if-not-there-then-here",
+            "DSCF8416"
+          ]
+        },
+        {
+          "title": "winds through bleak timber",
+          "display": {
+            "title": "winds through bleak timber",
+            "geotime": "Olympia, Washington, 2024",
+            "exif": "Ilford HP5+, Mamiya 7"
+          },
+          "meta": {
+            "film": "Ilford HP5+",
+            "camera": "Mamiya 7",
+            "location": "Olympia, Washington",
+            "time": "2024"
+          },
+          "src": "DSCF8007.jpg",
+          "link": {
+            "href": "https://12kmusic.bandcamp.com/track/winds-through-bleak-timber",
+            "text": "12k Bandcamp"
+          },
+          "path": "/work/DSCF8007.jpg",
+          "id": "DSCF8007",
+          "slugs": [
+            "winds-through-bleak-timber",
+            "DSCF8007"
+          ]
+        },
+        {
+          "title": "proximities",
+          "display": {
+            "title": "proximities",
+            "geotime": "San Francisco, California, 2024",
+            "exif": "Ilford HP5+, Mamiya 7"
+          },
+          "meta": {
+            "film": "Ilford HP5+",
+            "camera": "Mamiya 7",
+            "location": "San Francisco, California",
+            "time": "2024"
+          },
+          "src": "DSCF8405.jpg",
+          "link": {
+            "href": "https://steveroden.bandcamp.com/album/proximities",
+            "text": "Steve Roden Bandcamp"
+          },
+          "path": "/work/DSCF8405.jpg",
+          "id": "DSCF8405",
+          "slugs": [
+            "proximities",
+            "DSCF8405"
+          ]
+        },
+        {
+          "title": "airforms",
+          "display": {
+            "title": "airforms",
+            "geotime": "Seattle, Washington, 2024",
+            "exif": "Ilford HP5+, Mamiya 7"
+          },
+          "meta": {
+            "film": "Ilford HP5+",
+            "camera": "Mamiya 7",
+            "location": "Seattle, Washington",
+            "time": "2024"
+          },
+          "src": "DSCF7887.jpg",
+          "link": {
+            "href": "https://lineimprint.bandcamp.com/album/airforms",
+            "text": "Line Bandcamp"
+          },
+          "path": "/work/DSCF7887.jpg",
+          "id": "DSCF7887",
+          "slugs": [
+            "airforms",
+            "DSCF7887"
+          ]
+        },
+        {
+          "title": "transmissions",
+          "display": {
+            "title": "transmissions",
+            "geotime": "Seattle, Washington, 2024",
+            "exif": "Ilford HP5+, Mamiya 7"
+          },
+          "meta": {
+            "film": "Ilford HP5+",
+            "camera": "Mamiya 7",
+            "location": "Seattle, Washington",
+            "time": "2024"
+          },
+          "src": "DSCF7961.jpg",
+          "link": {
+            "href": "https://steveroden.bandcamp.com/album/transmissions-voices-of-objects-and-skies",
+            "text": "Steve Roden Bandcamp"
+          },
+          "path": "/work/DSCF7961.jpg",
+          "id": "DSCF7961",
+          "slugs": [
+            "transmissions",
+            "DSCF7961"
+          ]
+        },
+        {
+          "title": "two hands behind glass",
+          "display": {
+            "title": "two hands behind glass",
+            "geotime": "Seattle, Washington, 2024",
+            "exif": "Ilford HP5+, Mamiya 7"
+          },
+          "meta": {
+            "film": "Ilford HP5+",
+            "camera": "Mamiya 7",
+            "location": "Seattle, Washington",
+            "time": "2024"
+          },
+          "src": "DSCF7944.jpg",
+          "link": {
+            "href": "https://steveroden.bandcamp.com/track/two-hands-behind-glass",
+            "text": "Steve Roden Bandcamp"
+          },
+          "path": "/work/DSCF7944.jpg",
+          "id": "DSCF7944",
+          "slugs": [
+            "two-hands-behind-glass",
+            "DSCF7944"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Angle of Repose",
+      "route": "/work/angleofrepose",
+      "description": "Photo series",
+      "images": [
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8651.jpg",
+          "path": "/work/DSCF8651.jpg",
+          "id": "DSCF8651",
+          "slugs": [
+            "DSCF8651"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF2585.jpg",
+          "path": "/work/DSCF2585.jpg",
+          "id": "DSCF2585",
+          "slugs": [
+            "DSCF2585"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF0348.jpg",
+          "path": "/work/DSCF0348.jpg",
+          "id": "DSCF0348",
+          "slugs": [
+            "DSCF0348"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF4225.jpg",
+          "path": "/work/DSCF4225.jpg",
+          "id": "DSCF4225",
+          "slugs": [
+            "DSCF4225"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5127.jpg",
+          "path": "/work/DSCF5127.jpg",
+          "id": "DSCF5127",
+          "slugs": [
+            "DSCF5127"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5963.jpg",
+          "path": "/work/DSCF5963.jpg",
+          "id": "DSCF5963",
+          "slugs": [
+            "DSCF5963"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5219.jpg",
+          "path": "/work/DSCF5219.jpg",
+          "id": "DSCF5219",
+          "slugs": [
+            "DSCF5219"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5950.jpg",
+          "path": "/work/DSCF5950.jpg",
+          "id": "DSCF5950",
+          "slugs": [
+            "DSCF5950"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF6281.jpg",
+          "path": "/work/DSCF6281.jpg",
+          "id": "DSCF6281",
+          "slugs": [
+            "DSCF6281"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF9194.jpg",
+          "path": "/work/DSCF9194.jpg",
+          "id": "DSCF9194",
+          "slugs": [
+            "DSCF9194"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5255.jpg",
+          "path": "/work/DSCF5255.jpg",
+          "id": "DSCF5255",
+          "slugs": [
+            "DSCF5255"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF6450.jpg",
+          "path": "/work/DSCF6450.jpg",
+          "id": "DSCF6450",
+          "slugs": [
+            "DSCF6450"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7376.jpg",
+          "path": "/work/DSCF7376.jpg",
+          "id": "DSCF7376",
+          "slugs": [
+            "DSCF7376"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8153.jpg",
+          "path": "/work/DSCF8153.jpg",
+          "id": "DSCF8153",
+          "slugs": [
+            "DSCF8153"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8284.jpg",
+          "path": "/work/DSCF8284.jpg",
+          "id": "DSCF8284",
+          "slugs": [
+            "DSCF8284"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8357.jpg",
+          "path": "/work/DSCF8357.jpg",
+          "id": "DSCF8357",
+          "slugs": [
+            "DSCF8357"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8653.jpg",
+          "path": "/work/DSCF8653.jpg",
+          "id": "DSCF8653",
+          "slugs": [
+            "DSCF8653"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8144.jpg",
+          "path": "/work/DSCF8144.jpg",
+          "id": "DSCF8144",
+          "slugs": [
+            "DSCF8144"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8845.jpg",
+          "path": "/work/DSCF8845.jpg",
+          "id": "DSCF8845",
+          "slugs": [
+            "DSCF8845"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF9028.jpg",
+          "path": "/work/DSCF9028.jpg",
+          "id": "DSCF9028",
+          "slugs": [
+            "DSCF9028"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "If You Can't See My Mirrors",
+      "route": "/work/iycsmm",
+      "description": "Photo series",
+      "images": [
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF0409.jpg",
+          "path": "/work/DSCF0409.jpg",
+          "id": "DSCF0409",
+          "slugs": [
+            "DSCF0409"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF0456.jpg",
+          "path": "/work/DSCF0456.jpg",
+          "id": "DSCF0456",
+          "slugs": [
+            "DSCF0456"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF0419.jpg",
+          "path": "/work/DSCF0419.jpg",
+          "id": "DSCF0419",
+          "slugs": [
+            "DSCF0419"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5465.jpg",
+          "path": "/work/DSCF5465.jpg",
+          "id": "DSCF5465",
+          "slugs": [
+            "DSCF5465"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF0614.jpg",
+          "path": "/work/DSCF0614.jpg",
+          "id": "DSCF0614",
+          "slugs": [
+            "DSCF0614"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF0621.jpg",
+          "path": "/work/DSCF0621.jpg",
+          "id": "DSCF0621",
+          "slugs": [
+            "DSCF0621"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1627.jpg",
+          "path": "/work/DSCF1627.jpg",
+          "id": "DSCF1627",
+          "slugs": [
+            "DSCF1627"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1068-2.jpg",
+          "path": "/work/DSCF1068-2.jpg",
+          "id": "DSCF1068-2",
+          "slugs": [
+            "DSCF1068-2"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1077.jpg",
+          "path": "/work/DSCF1077.jpg",
+          "id": "DSCF1077",
+          "slugs": [
+            "DSCF1077"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1090.jpg",
+          "path": "/work/DSCF1090.jpg",
+          "id": "DSCF1090",
+          "slugs": [
+            "DSCF1090"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1125.jpg",
+          "path": "/work/DSCF1125.jpg",
+          "id": "DSCF1125",
+          "slugs": [
+            "DSCF1125"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF1616.jpg",
+          "path": "/work/DSCF1616.jpg",
+          "id": "DSCF1616",
+          "slugs": [
+            "DSCF1616"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5832.jpg",
+          "path": "/work/DSCF5832.jpg",
+          "id": "DSCF5832",
+          "slugs": [
+            "DSCF5832"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF6394.jpg",
+          "path": "/work/DSCF6394.jpg",
+          "id": "DSCF6394",
+          "slugs": [
+            "DSCF6394"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7831.jpg",
+          "path": "/work/DSCF7831.jpg",
+          "id": "DSCF7831",
+          "slugs": [
+            "DSCF7831"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF6820.jpg",
+          "path": "/work/DSCF6820.jpg",
+          "id": "DSCF6820",
+          "slugs": [
+            "DSCF6820"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8853.jpg",
+          "path": "/work/DSCF8853.jpg",
+          "id": "DSCF8853",
+          "slugs": [
+            "DSCF8853"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8433.jpg",
+          "path": "/work/DSCF8433.jpg",
+          "id": "DSCF8433",
+          "slugs": [
+            "DSCF8433"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sound of the Sea",
+      "route": "/work/soundofthesea",
+      "description": "Photo series",
+      "images": [
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF2788.jpg",
+          "path": "/work/DSCF2788.jpg",
+          "id": "DSCF2788",
+          "slugs": [
+            "DSCF2788"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF2648.jpg",
+          "path": "/work/DSCF2648.jpg",
+          "id": "DSCF2648",
+          "slugs": [
+            "DSCF2648"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF2743.jpg",
+          "path": "/work/DSCF2743.jpg",
+          "id": "DSCF2743",
+          "slugs": [
+            "DSCF2743"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF3050-2.jpg",
+          "path": "/work/DSCF3050-2.jpg",
+          "id": "DSCF3050-2",
+          "slugs": [
+            "DSCF3050-2"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF3056-2.jpg",
+          "path": "/work/DSCF3056-2.jpg",
+          "id": "DSCF3056-2",
+          "slugs": [
+            "DSCF3056-2"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF3825.jpg",
+          "path": "/work/DSCF3825.jpg",
+          "id": "DSCF3825",
+          "slugs": [
+            "DSCF3825"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5385.jpg",
+          "path": "/work/DSCF5385.jpg",
+          "id": "DSCF5385",
+          "slugs": [
+            "DSCF5385"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5623.jpg",
+          "path": "/work/DSCF5623.jpg",
+          "id": "DSCF5623",
+          "slugs": [
+            "DSCF5623"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF5750.jpg",
+          "path": "/work/DSCF5750.jpg",
+          "id": "DSCF5750",
+          "slugs": [
+            "DSCF5750"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF6559.jpg",
+          "path": "/work/DSCF6559.jpg",
+          "id": "DSCF6559",
+          "slugs": [
+            "DSCF6559"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF6573.jpg",
+          "path": "/work/DSCF6573.jpg",
+          "id": "DSCF6573",
+          "slugs": [
+            "DSCF6573"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF6847.jpg",
+          "path": "/work/DSCF6847.jpg",
+          "id": "DSCF6847",
+          "slugs": [
+            "DSCF6847"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7321.jpg",
+          "path": "/work/DSCF7321.jpg",
+          "id": "DSCF7321",
+          "slugs": [
+            "DSCF7321"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7696.jpg",
+          "path": "/work/DSCF7696.jpg",
+          "id": "DSCF7696",
+          "slugs": [
+            "DSCF7696"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7856.jpg",
+          "path": "/work/DSCF7856.jpg",
+          "id": "DSCF7856",
+          "slugs": [
+            "DSCF7856"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7857.jpg",
+          "path": "/work/DSCF7857.jpg",
+          "id": "DSCF7857",
+          "slugs": [
+            "DSCF7857"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF7970.jpg",
+          "path": "/work/DSCF7970.jpg",
+          "id": "DSCF7970",
+          "slugs": [
+            "DSCF7970"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8392.jpg",
+          "path": "/work/DSCF8392.jpg",
+          "id": "DSCF8392",
+          "slugs": [
+            "DSCF8392"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8641.jpg",
+          "path": "/work/DSCF8641.jpg",
+          "id": "DSCF8641",
+          "slugs": [
+            "DSCF8641"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8647.jpg",
+          "path": "/work/DSCF8647.jpg",
+          "id": "DSCF8647",
+          "slugs": [
+            "DSCF8647"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF8653.jpg",
+          "path": "/work/DSCF8653.jpg",
+          "id": "DSCF8653",
+          "slugs": [
+            "DSCF8653"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF9697.jpg",
+          "path": "/work/DSCF9697.jpg",
+          "id": "DSCF9697",
+          "slugs": [
+            "DSCF9697"
+          ]
+        },
+        {
+          "title": "",
+          "display": {
+            "title": "",
+            "geotime": null,
+            "exif": null
+          },
+          "meta": {
+            "film": "",
+            "camera": "",
+            "location": "",
+            "time": ""
+          },
+          "src": "DSCF9860.jpg",
+          "path": "/work/DSCF9860.jpg",
+          "id": "DSCF9860",
+          "slugs": [
+            "DSCF9860"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "route": "/about",
+      "description": "Artist statement and exhibition history",
+      "images": []
+    }
+  ]
+}
