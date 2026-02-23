@@ -1,3 +1,3 @@
-# <https://photo.fhwrdh.net>
+# <https://fhwrdh.net>
 
 [//]: # "kick"

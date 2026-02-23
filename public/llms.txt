@@ -1,9 +1,9 @@
-# photo.fhwrdh.net
+# fhwrdh.net
 
 > Photography portfolio of Franklin Henderson, Seattle, Washington.
 
 This is a client-side React application. The HTML source contains no rendered content.
-For structured site data, see: https://photo.fhwrdh.net/site-manifest.json
+For structured site data, see: https://fhwrdh.net/site-manifest.json
 
 ## Pages
 
@@ -17,10 +17,10 @@ For structured site data, see: https://photo.fhwrdh.net/site-manifest.json
 ## Navigation
 
 This site uses hash-based routing. All URLs are formatted as:
-https://photo.fhwrdh.net/#/work/ftprtu
+https://fhwrdh.net/#/work/ftprtu
 
 Individual images open in a modal carousel at URLs like:
-https://photo.fhwrdh.net/#/work/ftprtu/winter-couplet
+https://fhwrdh.net/#/work/ftprtu/winter-couplet
 
 ## Images
 

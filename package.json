@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "manifest": "node scripts/generate-manifest.js",
-    "cname": "echo \"photo.fhwrdh.net\" > ./dist/CNAME",
+    "cname": "echo \"fhwrdh.net\" > ./dist/CNAME",
     "build": "npm run manifest && vite build && npm run cname",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
@@ -14,7 +14,7 @@
     "deploy": "gh-pages -d dist && echo \"123\"",
     "postdeploy": "echo \"https://github.com/fhwrdh/fhwrdh.github.io/actions\""
   },
-  "homepage": "https://photo.fhwrdh.net/",
+  "homepage": "https://fhwrdh.net/",
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",

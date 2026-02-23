@@ -15,7 +15,7 @@ npm run deploy     # Build + deploy to GitHub Pages via gh-pages
 
 ## What This Is
 
-A photo portfolio site for Franklin Henderson, served at photo.fhwrdh.net. Built with React 18, Vite, and Chakra UI v2. Uses hash-based routing (`createHashRouter`) for GitHub Pages compatibility.
+A photo portfolio site for Franklin Henderson, served at fhwrdh.net (also accessible via photo.fhwrdh.net, which redirects). Built with React 18, Vite, and Chakra UI v2. Uses hash-based routing (`createHashRouter`) for GitHub Pages compatibility.
 
 ## Architecture
 
@@ -43,9 +43,9 @@ Each series page follows the same pattern: imports its image collection, calls `
 
 This is a client-side React app — fetching the HTML returns an empty shell with no content. To inspect site content without a browser:
 
-- **`public/site-manifest.json`** — Complete structured data for every page and image (paths, slugs, metadata, routes). Generated from `src/images/index.js` by `npm run manifest` and included in every build. Also served at `https://photo.fhwrdh.net/site-manifest.json`.
-- **`public/llms.txt`** — Human/agent-readable site overview following the llms.txt convention. Served at `https://photo.fhwrdh.net/llms.txt`.
-- **Playwright** — For visual verification, use the Playwright MCP tools to render the site. Note the hash-based routing (URLs look like `https://photo.fhwrdh.net/#/work/ftprtu`).
+- **`public/site-manifest.json`** — Complete structured data for every page and image (paths, slugs, metadata, routes). Generated from `src/images/index.js` by `npm run manifest` and included in every build. Also served at `https://fhwrdh.net/site-manifest.json`.
+- **`public/llms.txt`** — Human/agent-readable site overview following the llms.txt convention. Served at `https://fhwrdh.net/llms.txt`.
+- **Playwright** — For visual verification, use the Playwright MCP tools to render the site. Note the hash-based routing (URLs look like `https://fhwrdh.net/#/work/ftprtu`).
 
 After changing image data in `src/images/index.js`, run `npm run manifest` to regenerate the manifest.
 

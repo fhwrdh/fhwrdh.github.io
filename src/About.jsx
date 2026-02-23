@@ -9,33 +9,25 @@ export default function About() {
         ml={{ base: 0, md: 12 }}
       >
         <Text mb={4}>
-          Photography is my way of noticing—about paying deliberate attention to
-          the way time, movement, and perception shape what we see. Sound is an
-          important part of this. I am looking for both the effects of sound on
-          photographs as well as the sound that photographs express. I think I
-          can hear the lines on the road and the reflection in that glass; see
-          the barely audible vibration of the docked ferry and the distant hum
-          of that building.
+          I{"'"}m looking for the noise that photographs make — the lines on
+          the road, the reflection in that glass, the barely audible vibration
+          of a docked ferry, the distant hum of a building.
         </Text>
 
         <Text mb={4}>
-          I am drawn to unplanned abstraction, finding it in reflections,
+          I{"'"}m drawn to unplanned abstraction, finding it in reflections,
           layered views through windows, unintended geometry, and the shapes
           that humans carve in space. Chance and self-imposed procedural
           constraints usually play a role. I like ceding some control to time,
-          random numbers and maps. These constraints push me off the beaten
-          path. Photographs want to be uncertain - to ask questions, not answer
+          random numbers, and maps. These constraints push me off the beaten
+          path. Photographs want to be uncertain — to ask questions, not answer
           them.
         </Text>
 
         <Text mb={4}>
-          I work in black and white, embracing the limitations of analog
-          processes. This approach serves as a counterbalance to digital
-          immersion and the pursuit of technical perfection. The process is
-          physical, from loading the camera to developing to printing in the
-          darkroom. This tactile, hands-on connection with the machines and the
-          film keeps me engaged with the process while allowing me to create
-          something personal and momentary.
+          I work in black and white film, from loading the camera to developing
+          to printing in the darkroom. The process is physical, and that keeps
+          me in it.
         </Text>
 
         <Text mb={4}>
