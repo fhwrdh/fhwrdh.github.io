@@ -15,7 +15,8 @@ server {
         add_header Cache-Control "public, immutable";
     }
 
-    location /work/ {
+    # Images only. /work/<series> paths are client routes and must reach the SPA fallback.
+    location ~* ^/work/.+\.(jpe?g|png|webp|gif|avif)$ {
         expires 7d;
         add_header Cache-Control "public";
         try_files $uri =404;
