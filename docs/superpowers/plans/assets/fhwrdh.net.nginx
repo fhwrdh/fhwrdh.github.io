@@ -1,0 +1,28 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name new.fhwrdh.net;
+
+    root /home/fhwrdh/fhwrdh.net/dist;
+    index index.html;
+
+    gzip on;
+    gzip_types text/css application/javascript application/json image/svg+xml;
+
+    # Vite hashed bundles never change under the same name.
+    location /assets/ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+    }
+
+    location /work/ {
+        expires 7d;
+        add_header Cache-Control "public";
+        try_files $uri =404;
+    }
+
+    # SPA: serve built files, fall back to index.html for client routes.
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
