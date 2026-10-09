@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-23T03:52:13.373Z",
+  "generated": "2026-10-09T04:57:45.935Z",
   "site": "https://fhwrdh.net",
-  "routing": "hash-based (e.g. https://fhwrdh.net/#/work/ftprtu)",
+  "routing": "path-based (e.g. https://fhwrdh.net/work/ftprtu)",
   "pages": [
     {
       "name": "Home",

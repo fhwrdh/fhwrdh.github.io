@@ -17,10 +17,10 @@ For structured site data, see: https://fhwrdh.net/site-manifest.json
 ## Navigation
 
 This site uses hash-based routing. All URLs are formatted as:
-https://fhwrdh.net/#/work/ftprtu
+https://fhwrdh.net/work/ftprtu
 
 Individual images open in a modal carousel at URLs like:
-https://fhwrdh.net/#/work/ftprtu/winter-couplet
+https://fhwrdh.net/work/ftprtu/winter-couplet
 
 ## Images
 

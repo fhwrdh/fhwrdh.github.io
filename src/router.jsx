@@ -1,6 +1,6 @@
 import {
   Route,
-  createHashRouter,
+  createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
 
@@ -11,8 +11,12 @@ import FirstTheyPassed from "./work/FirstTheyPassed";
 import AngleOfRepose from "./work/AngleOfRepose";
 import SoundOfTheSea from "./work/SoundOfTheSea";
 import IfYouCantSeeMyMirrors from "./work/IfYouCantSeeMyMirrors";
+import { migrateLegacyHash } from "./legacyHash";
 
-const router = createHashRouter(
+// Must run before createBrowserRouter reads window.location.
+migrateLegacyHash(window.location, window.history);
+
+const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/:id?" element={<Layout />}>
       <Route index element={<Home />} />

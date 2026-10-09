@@ -9,7 +9,7 @@ import { homeImages, ftprtuImages, aorImages, iycsmmImages, sotsImages } from ".
 const manifest = {
   generated: new Date().toISOString(),
   site: "https://fhwrdh.net",
-  routing: "hash-based (e.g. https://fhwrdh.net/#/work/ftprtu)",
+  routing: "path-based (e.g. https://fhwrdh.net/work/ftprtu)",
   pages: [
     {
       name: "Home",
