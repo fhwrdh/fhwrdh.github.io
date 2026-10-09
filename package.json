@@ -9,6 +9,7 @@
     "cname": "echo \"fhwrdh.net\" > ./dist/CNAME",
     "build": "npm run manifest && vite build && npm run cname",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "test": "node --test src/",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist && echo \"123\"",
