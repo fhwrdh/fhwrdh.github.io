@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 
 _working-images
+
+# Agent working dirs
+.claude/
+.playwright-mcp/
