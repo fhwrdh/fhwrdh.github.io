@@ -13,6 +13,6 @@ npm run build
 
 echo "==> syncing dist/"
 ssh "$HOST" "mkdir -p $REMOTE/dist"
-rsync -az --delete dist/ "$HOST:$REMOTE/dist/"
+rsync -az --delete --chmod=D755,F644 dist/ "$HOST:$REMOTE/dist/"
 
 echo "==> done: https://fhwrdh.net (staging: https://new.fhwrdh.net)"

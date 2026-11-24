@@ -8,7 +8,7 @@ REMOTE="~/fhwrdh.net/dist/sander"
 
 echo "==> syncing public/sander/ -> $REMOTE"
 ssh "$HOST" "mkdir -p $REMOTE"
-rsync -az --info=progress2 public/sander/ "$HOST:$REMOTE/"
+rsync -az --chmod=D755,F644 --info=progress2 public/sander/ "$HOST:$REMOTE/"
 
 echo "==> verifying"
 curl -sI https://fhwrdh.net/sander/ | head -3
