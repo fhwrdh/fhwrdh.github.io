@@ -1,3 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="A zoomable canvas of August Sander's People of the Twentieth Century: seven groups, 49 portfolios, 619 photographs.">
 <title>People of the Twentieth Century</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -115,7 +121,8 @@ body.detail .capmore{display:inline}
 body.detail .quiet{display:block}
 #bar button.live{color:var(--accent)}
 </style>
-
+</head>
+<body>
 <div id="stage"><div id="world"></div></div>
 <div id="hint">DRAG TO PAN · SCROLL TO ZOOM · 1–9 STOPS · 0 OVERVIEW · SPACE TOUR · <b>D FOR DETAIL</b></div>
 <nav id="bar"></nav>
@@ -407,3 +414,6 @@ addEventListener('resize',()=>{if(cur)go(cur);});
 go('all');
 addEventListener('load',()=>{layoutLane(); if(cur) go(cur);});
 </script>
+
+</body>
+</html>
